@@ -25,7 +25,7 @@ plt.grid()
 plt.ylabel('Время в нс')
 plt.xlabel('Количество элементов')
 
-plt.title('Время выполнения операций в 2-3-tree')
+plt.title('Время сортировки массива')
 
 plt.plot(heap_random[0], heap_random[1], label='heap_random')
 plt.plot(heap_sorted[0], heap_sorted[1], label='heap_sorted')
